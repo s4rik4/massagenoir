@@ -1,16 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="#">Massage Noir</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div [collapse]="!isCollapsed" class="collapse navbar-collapse"id="collapseBasic">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="esemenyek.html">Árak</a>
-        <a class="nav-item nav-link" href="jegyek.html">Masszázsok</a>
-        <a class="nav-item nav-link" href="rolunk.html">Rólam</a>
-        <a class="nav-item nav-link" href="belepes.html">Visszahívás kérés</a>
+        <a class="nav-item nav-link active" routerLinkActive="home">Home</a>
+        <a class="nav-item nav-link" routerLinkActive="arak">Árak</a>
+        <a class="nav-item nav-link" routerLinkActive="masszazsok">Masszázsok</a>
+        <a class="nav-item nav-link" routerLinkActive="rolam">Rólam</a>
+        <a class="nav-item nav-link" routerLinkActive="#">Visszahívás kérés</a>
       </div>
     </div>
   </div>

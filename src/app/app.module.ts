@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -9,6 +8,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
+import {CollapseModule} from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
