@@ -8,13 +8,12 @@ import {JumbotronComponent} from './core/jumbotron/jumbotron.component';
 import {HeaderComponent} from './core/header/header.component';
 import {PageNotFoundComponent} from './core/page-not-found/page-not-found.component';
 import {AppRoutingModule} from './app-routing.module';
-import {CollapseModule} from 'ngx-bootstrap';
+import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
 import {ArakComponent} from './arak/arak.component';
 import {MasszazsokComponent} from './masszazsok/masszazsok.component';
 import {RolamComponent} from './rolam/rolam.component';
 import { HatmasszazsComponent } from './masszazsok/hatmasszazs/hatmasszazs.component';
-import { TestmasszazsComponent } from './testmasszazs/testmasszazs.component';
-import { TeljesComponent } from './teljes/teljes.component';
+import { TestmasszazsComponent } from './masszazsok/testmasszazs/testmasszazs.component';
 import { TeljestestmasszazsComponent } from './masszazsok/teljestestmasszazs/teljestestmasszazs.component';
 import { TalpmasszazsComponent } from './masszazsok/talpmasszazs/talpmasszazs.component';
 import { IrodaimaszazsComponent } from './masszazsok/irodaimaszazs/irodaimaszazs.component';
@@ -34,7 +33,6 @@ import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.compo
     RolamComponent,
     HatmasszazsComponent,
     TestmasszazsComponent,
-    TeljesComponent,
     TeljestestmasszazsComponent,
     TalpmasszazsComponent,
     IrodaimaszazsComponent,
@@ -43,7 +41,8 @@ import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
