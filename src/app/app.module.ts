@@ -12,6 +12,13 @@ import {CollapseModule} from 'ngx-bootstrap';
 import {ArakComponent} from './arak/arak.component';
 import {MasszazsokComponent} from './masszazsok/masszazsok.component';
 import {RolamComponent} from './rolam/rolam.component';
+import { HatmasszazsComponent } from './masszazsok/hatmasszazs/hatmasszazs.component';
+import { TestmasszazsComponent } from './testmasszazs/testmasszazs.component';
+import { TeljesComponent } from './teljes/teljes.component';
+import { TeljestestmasszazsComponent } from './masszazsok/teljestestmasszazs/teljestestmasszazs.component';
+import { TalpmasszazsComponent } from './masszazsok/talpmasszazs/talpmasszazs.component';
+import { IrodaimaszazsComponent } from './masszazsok/irodaimaszazs/irodaimaszazs.component';
+import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +31,14 @@ import {RolamComponent} from './rolam/rolam.component';
     PageNotFoundComponent,
     ArakComponent,
     MasszazsokComponent,
-    RolamComponent
+    RolamComponent,
+    HatmasszazsComponent,
+    TestmasszazsComponent,
+    TeljesComponent,
+    TeljestestmasszazsComponent,
+    TalpmasszazsComponent,
+    IrodaimaszazsComponent,
+    ArcmasszazsComponent
   ],
   imports: [
     BrowserModule,
