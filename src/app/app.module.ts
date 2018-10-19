@@ -18,6 +18,7 @@ import { TeljestestmasszazsComponent } from './masszazsok/teljestestmasszazs/tel
 import { TalpmasszazsComponent } from './masszazsok/talpmasszazs/talpmasszazs.component';
 import { IrodaimaszazsComponent } from './masszazsok/irodaimaszazs/irodaimaszazs.component';
 import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.component';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.compo
     BrowserModule,
     AppRoutingModule,
     CollapseModule.forRoot(),
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Title} from '@angular/platform-browser';
 
 @Component({
@@ -8,8 +8,11 @@ import {Title} from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'massagenoir';
-  public constructor(private titleService: Title ) { }
-  public setTitle( newTitle: string) {
-    this.titleService.setTitle( newTitle );
+
+  public constructor(private titleService: Title) {
+  }
+
+  public setTitle(newTitle: string) {
+    this.titleService.setTitle(newTitle);
   }
 }
