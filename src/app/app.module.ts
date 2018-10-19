@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {HomeComponent} from './home/home.component';
 import {NavbarComponent} from './core/navbar/navbar.component';
 import {FooterComponent} from './core/footer/footer.component';
@@ -12,13 +13,12 @@ import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
 import {ArakComponent} from './arak/arak.component';
 import {MasszazsokComponent} from './masszazsok/masszazsok.component';
 import {RolamComponent} from './rolam/rolam.component';
-import { HatmasszazsComponent } from './masszazsok/hatmasszazs/hatmasszazs.component';
-import { TestmasszazsComponent } from './masszazsok/testmasszazs/testmasszazs.component';
-import { TeljestestmasszazsComponent } from './masszazsok/teljestestmasszazs/teljestestmasszazs.component';
-import { TalpmasszazsComponent } from './masszazsok/talpmasszazs/talpmasszazs.component';
-import { IrodaimaszazsComponent } from './masszazsok/irodaimaszazs/irodaimaszazs.component';
-import { ArcmasszazsComponent } from './masszazsok/arcmasszazs/arcmasszazs.component';
-import {AngularFontAwesomeModule} from 'angular-font-awesome';
+import {HatmasszazsComponent} from './masszazsok/hatmasszazs/hatmasszazs.component';
+import {TestmasszazsComponent} from './masszazsok/testmasszazs/testmasszazs.component';
+import {TeljestestmasszazsComponent} from './masszazsok/teljestestmasszazs/teljestestmasszazs.component';
+import {TalpmasszazsComponent} from './masszazsok/talpmasszazs/talpmasszazs.component';
+import {IrodaimaszazsComponent} from './masszazsok/irodaimaszazs/irodaimaszazs.component';
+import {ArcmasszazsComponent} from './masszazsok/arcmasszazs/arcmasszazs.component';
 
 @NgModule({
   declarations: [
