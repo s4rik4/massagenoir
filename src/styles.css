@@ -1,5 +1,6 @@
 /* global css*/
 html {
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
 
@@ -50,7 +51,12 @@ footer {
   width: 200px;
 }
 
+/* gomb stílusok */
 .btn-primary {
+  color: #000;
+  border-color: #fdebdb;
+}
+.btn-primary:hover {
   color: #000;
   background-color: #fdebdb;
   border-color: #fdebdb;
@@ -60,6 +66,22 @@ footer {
   background-color: #fdebdb !important;
 }
 
+.index_btn_card {
+
+  position: relative;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+}
+
+.index_btn_card:hover {
+  box-shadow: 0 5px 25px 0px rgba(0,0,0,.2);
+}
 
 
 @media (min-width: 768px) {
