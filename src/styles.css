@@ -51,13 +51,13 @@ footer {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #fdaa1a;
-  border-color: #bf2020;
+  color: #000;
+  background-color: #fdebdb;
+  border-color: #fdebdb;
 }
 
 .bg-light {
-  background-color: #fdaa1a !important;
+  background-color: #fdebdb !important;
 }
 
 
