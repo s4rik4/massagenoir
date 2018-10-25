@@ -1,4 +1,3 @@
-import {TicketModel} from './ticket-model';
 import {Injectable} from '@angular/core';
 import {PriceModel} from './price-model';
 
@@ -20,6 +19,7 @@ export class PriceService {
   }
 
   create(param: PriceModel) {
+    console.log(this._prices);
     this._prices = [
       ...this._prices,
       new PriceModel({
@@ -29,7 +29,6 @@ export class PriceService {
       })
 
     ];
-    console.log(this._prices);
   }
 
   private _getMockData() {
