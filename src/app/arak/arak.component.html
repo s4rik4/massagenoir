@@ -10,16 +10,6 @@
   </thead>
 
   <tbody class="text-center">
-  <tr *ngFor="let price of prices">
-    <td scope="row">
-      <a [routerLink]="['/event', ticket.eventId]">
-        {{ ticket.event.name }}
-      </a>
-    </td>
-    <td>{{ ticket.date }}</td>
-    <td class="d-none d-md-table-cell">{{ ticket.seller.name }}</td>
-    <td class="d-none d-md-table-cell">{{ ticket.numberOfTickets }}</td>
-    <td><a [routerLink]="['/ticket', ticket.id]">Tovább a licithez</a></td>
-  </tr>
+
   </tbody>
 </table>
