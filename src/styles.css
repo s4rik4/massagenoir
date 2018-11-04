@@ -63,7 +63,10 @@ footer {
 }
 
 .bg-light {
-  background-color: white !important;
+  background: #fdebdb !important;
+}
+.nav-logo {
+  max-height: 75px;
 }
 
 .index_btn_card {
