@@ -92,3 +92,8 @@ footer {
     font-size: 16px;
   }
 }
+
+*:focus {
+  outline: none !important;
+  border: 0 !important;
+}
